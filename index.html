@@ -47,11 +47,12 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="images/x-icon" href="images/logo.png">
     <title>Medi project</title>
   </head>
   <body>
-    <header>
+
       <div class="top">
         <div class="top-container container-width">
           <p>
@@ -91,8 +92,11 @@
           <div class="add-to-card">
             <span class="heard"><i class="fa-regular fa-heart"></i></span>
             <div class="shopping-card">
-              <span><i class="fa-solid fa-bag-shopping"></i></span>
-              <p>
+              <span class="shop-bag">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </span>
+              <p class="count-number">0</p>
+              <p >
                 shopping card:
                 <span>$0</span>
               </p>
@@ -125,7 +129,7 @@
           </div>
         </div>
       </nav>
-    </header>
+
     <!-- Hero section -->
     <section class="hero-section">
       <div class="hero-container container-width">
@@ -203,50 +207,22 @@
           View All <span><i class="fa-solid fa-arrow-right"></i></span>
         </p>
       </div>
-      <div class="cate-items container-width">
-        <div class="pop-cate-item">
+      <div class="cate-items container-width" id="cate-box">
+        <div class="pop-cate-item" >
           <div class="cate-image">
             <img
-              src="images/pop-categories/Syringe and needles.png"
+              src="images/pop-categories/Syringe_and_needles.png"
               alt="item"
             />
           </div>
           <h3>Syringe and needles</h3>
         </div>
-        <div class="pop-cate-item">
-          <div class="cate-image">
-            <img src="images/pop-categories/suture.png" alt="item" />
-          </div>
-          <h3>Suture</h3>
-        </div>
-        <div class="pop-cate-item">
-          <div class="cate-image">
-            <img src="images/pop-categories/blood bag.png" alt="item" />
-          </div>
-          <h3>Blood Bag</h3>
-        </div>
-        <div class="pop-cate-item">
-          <div class="cate-image">
-            <img src="images/pop-categories/blood lancet.png" alt="item" />
-          </div>
-          <h3>Blood Lancet</h3>
-        </div>
-        <div class="pop-cate-item">
-          <div class="cate-image">
-            <img src="images/pop-categories/urine bag.png" alt="item" />
-          </div>
-          <h3>Urine Bag</h3>
-        </div>
-        <div class="pop-cate-item">
-          <div class="cate-image">
-            <img src="images/pop-categories/medical tube.png" alt="item" />
-          </div>
-          <h3>Medical Tube</h3>
-        </div>
+
       </div>
     </section>
 
     <!-- popular products -->
+    
     <section class="popular-products">
       <div class="product-title container-width">
         <h2>Popular Products</h2>
@@ -254,10 +230,10 @@
           View All<span><i class="fa-solid fa-arrow-right"></i></span>
         </p>
       </div>
-      <div class="items-container container-width">
+      <div class="items-container container-width" id="product-box">
         <div class="pro-item">
           <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
+            <img src="images/product/sarasoft_ag.png" alt="sarasoft" />
             <p>Sale 50%</p>
           </div>
           <div class="pro-description">
@@ -278,162 +254,7 @@
             ></span>
           </div>
         </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-            <p>Sale 50%</p>
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-            <p>Sale 50%</p>
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-image">
-            <img src="images/sarasoft ag.png" alt="sarasoft" />
-          </div>
-          <div class="pro-description">
-            <div class="item-price">
-              <p>HealthCare</p>
-              <h3>Sarasoft AG</h3>
-              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span><i class="fa-sharp fa-solid fa-star"></i></span>
-              <span class="no-color"
-                ><i class="fa-sharp fa-regular fa-star"></i
-              ></span>
-            </div>
-            <span class="shopping-bag icon icon-four"
-              ><i class="fa-regular fa-bag-shopping"></i
-            ></span>
-          </div>
-        </div>
+
       </div>
     </section>
 
@@ -624,6 +445,7 @@
         </div>
       </div>
     </section>
+    <!-- footer section -->
     <footer class="footer-section">
         <div class="footer-bottom container-width">
           <div class="address">
@@ -669,5 +491,9 @@
         ><p>Developed by Digital Solution</p></span
       >
     </footer>
+
+   <script src="js/product.js"></script>
+   <script src="js/categories.js"></script>
+
   </body>
 </html>

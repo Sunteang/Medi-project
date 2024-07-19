@@ -208,17 +208,39 @@ a {
   font-size: 2rem;
   border-right: 1px solid gray;
   padding: 0 1rem;
+  cursor: pointer;
 }
 .shopping-card {
   display: flex;
   gap: 1rem;
 }
-.shopping-card span {
-  font-size: 1.5rem;
+.shopping-card .shop-bag {
+  position: relative;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.shopping-card > .count-number {
+  position: absolute;
+  top: 40px;
+  right: 230px;
+  display: inline-block;
+  font-size: 1.3rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.none-count {
+  display: none;
 }
 .shopping-card p {
+  font-size: 1rem;
+  margin-left: 5px;
   text-align: center;
 }
+
 .navigation {
   padding: 0.3rem;
   background-color: rgb(91, 91, 91);
@@ -250,6 +272,7 @@ a {
 .contact-number span {
   margin: 0 0.5rem;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 /* hero section */

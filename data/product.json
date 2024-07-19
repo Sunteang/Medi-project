@@ -1,0 +1,109 @@
+{
+  "popular_categories": [
+    {
+      "id": "1",
+      "title": "Syringe and needles",
+      "imgSrc": "images/pop-categories/syringe_and_needles.png"
+    },
+    {
+      "id": "2",
+      "title": "Suture",
+      "imgSrc": "images/pop-categories/suture.png"
+    },
+    {
+      "id": "3",
+      "title": "Blood Bag",
+      "imgSrc": "images/pop-categories/blood_bag.png"
+    },
+    {
+      "id": "4",
+      "title": "Blood Lancet",
+      "imgSrc": "images/pop-categories/blood_lancet.png"
+    },
+    {
+      "id": "5",
+      "title": "Urine Bag",
+      "imgSrc": "images/pop-categories/urine_bag.png"
+    },
+    {
+      "id": "6",
+      "title": "Medical Tube",
+      "imgSrc": "images/pop-categories/medical_tube.png"
+    }
+  ],
+
+  "popular_products": [
+    {
+      "id": "1",
+      "title": "Sarasoft AG1",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "No Discount",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "2",
+      "title": "Sarasoft AG2",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "Sale 50%",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "3",
+      "title": "Sarasoft AG3",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "Sale 50%",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "4",
+      "title": "Sarasoft AG4",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "No Discount",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "5",
+      "title": "Sarasoft AG5",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "No Discount",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "6",
+      "title": "Sarasoft AG6",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "Sale 50%",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "7",
+      "title": "Sarasoft AG7",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "No Discount",
+      "image": "images/product/sarasoft_ag.png"
+    },
+    {
+      "id": "8",
+      "title": "Sarasoft AG8",
+      "type": "HealthCare",
+      "price": "$20.99",
+      "price_discount": "$14.99",
+      "dis_percent": "Sale 50%",
+      "image": "images/product/sarasoft_ag.png"
+    }
+  ]
+}
