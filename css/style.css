@@ -223,7 +223,7 @@ a {
 .shopping-card > .count-number {
   position: absolute;
   top: 40px;
-  right: 230px;
+  right: 150px;
   display: inline-block;
   font-size: 1.3rem;
   width: 20px;
@@ -232,9 +232,7 @@ a {
   background-color: red;
   color: white;
 }
-.none-count {
-  display: none;
-}
+
 .shopping-card p {
   font-size: 1rem;
   margin-left: 5px;
@@ -443,10 +441,6 @@ a {
 .pro-item:hover {
   border: 2px solid green;
 }
-.pro-item:hover .shopping-bag {
-  background-color: green;
-  color: white;
-}
 .pro-image {
   position: relative;
   max-width: 200px;
@@ -470,6 +464,10 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+/* .pro-description .sb-green {
+  background-color: green;
+  color: white;
+} */
 .item-price {
   margin: 2rem 2.3rem;
 }

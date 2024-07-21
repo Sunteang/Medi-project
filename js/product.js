@@ -39,6 +39,8 @@ fetch(baseUrl)
 
     // Add click event listeners to the newly created elements
     const cartCountElement = document.querySelector(".count-number");
+    // const shopBagGreen = document.querySelector(".sb-green");
+    // console.log(shopBagGreen);
     let numberCount = 0;
 
     const shoppingBag = document.querySelectorAll(".shopping-bag");
