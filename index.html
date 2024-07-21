@@ -95,7 +95,7 @@
               <span class="shop-bag">
                 <i class="fa-solid fa-bag-shopping"></i>
               </span>
-              <p class="count-number">0</p>
+              <p class="count-number none-count">0</p>
               <p >
                 shopping card:
                 <span>$0</span>
@@ -133,12 +133,14 @@
     <!-- Hero section -->
     <section class="hero-section">
       <div class="hero-container container-width">
-        <div class="item-container">
-          <span class="icon icon-one"
+        <div class=" item-container">
+          <span class="hero-prev-btn icon icon-one"
             ><i class="fa-solid fa-arrow-left"></i
           ></span>
           <div class="hero-image">
-            <img src="images/heroImage.png" alt="hero" />
+            <img src="images//hero-image/heroImage.png" alt="hero" class="active"/>
+            <img src="images//hero-image/heroImage2.png" alt="hero" />
+            <img src="images//hero-image/heroImage3.png" alt="hero" />
           </div>
           <div class="hero-description">
             <p>Medicom experienced since 1993 in</p>
@@ -148,19 +150,19 @@
               Medicom is one of the major supplier of medical and Laboratory<br />
               Equipment throughout the kingdome.
             </p>
-            <button class="btn btn-one">
+            <button class=" btn btn-one">
               Shop Now <span><i class="fa-solid fa-arrow-right"></i></span>
             </button>
           </div>
-          <span class="icon icon-one"
+          <span class="hero-next-btn icon icon-one"
             ><i class="fa-solid fa-arrow-right"></i
           ></span>
         </div>
-        <span class="dot-ellipsis">
-          <h3>.</h3>
-          <h3 class="dot-active">.</h3>
-            <h3>.</h3>
-        </i></span>
+        <div class="dot-container">
+          <div class="dot active">.</div>
+          <div class="dot ">.</div>
+          <div class="dot">.</div>
+        </div>
       </div>
     </section>
     <!-- Feature section -->
@@ -223,7 +225,29 @@
         </p>
       </div>
       <div class="items-container container-width" id="product-box">
-        
+        <div class="pro-item" >
+          <div class="pro-image">
+            <img src="images/product/sarasoft_ag.png" alt="sarasoft" />
+            <p>Sale 50%</p>
+          </div>
+          <div class="pro-description">
+            <div class="item-price">
+              <p>HealthCare</p>
+              <h3>Sarasoft AG</h3>
+              <h4>$14.99 <span class="discount-price">$20.99</span></h4>
+              <span><i class="fa-sharp fa-solid fa-star"></i></span>
+              <span><i class="fa-sharp fa-solid fa-star"></i></span>
+              <span><i class="fa-sharp fa-solid fa-star"></i></span>
+              <span><i class="fa-sharp fa-solid fa-star"></i></span>
+              <span class="no-color"
+                ><i class="fa-sharp fa-regular fa-star"></i
+              ></span>
+            </div>
+            <span class=" shopping-bag icon icon-four" card_id="${item.id}"
+              ><i class="fa-regular fa-bag-shopping"></i
+            ></span>
+          </div>
+        </div>
 
       </div>
     </section>

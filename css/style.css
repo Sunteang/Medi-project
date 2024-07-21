@@ -141,6 +141,10 @@ a {
 .hidden {
   display: none;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+}
 
 /* Get Start */
 .top {
@@ -232,6 +236,9 @@ a {
   background-color: red;
   color: white;
 }
+.shopping-card > .none-count {
+  display: none;
+}
 
 .shopping-card p {
   font-size: 1rem;
@@ -295,10 +302,17 @@ a {
   color: white;
 }
 .hero-image {
-  max-width: 400px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
 }
 .hero-image > img {
   width: 100%;
+  position: absolute;
+}
+.hero-image > img:not(.active) {
+  left: -100%;
 }
 .hero-description p:first-child {
   color: green;
@@ -324,14 +338,49 @@ a {
 .hero-description button:hover {
   background-color: #008e00;
 }
-.hero-container .dot-ellipsis {
+.dot-container {
   display: flex;
   gap: 1rem;
   font-size: 4rem;
   color: rgb(137, 172, 137);
 }
-.hero-container .dot-ellipsis .dot-active {
+.dot {
+  font-size: 7rem;
+}
+.dot.active {
   color: #006000;
+}
+@keyframes nextOut {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes nextIn {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+@keyframes prevOut {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes prevIn {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
+  }
 }
 
 /* Feature section */
@@ -441,6 +490,7 @@ a {
 .pro-item:hover {
   border: 2px solid green;
 }
+
 .pro-image {
   position: relative;
   max-width: 200px;
@@ -464,10 +514,10 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-/* .pro-description .sb-green {
+.green {
   background-color: green;
   color: white;
-} */
+}
 .item-price {
   margin: 2rem 2.3rem;
 }
